@@ -1,0 +1,106 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.container {
+  border: 1px soid brown;
+  padding: 30px;
+  display: auto;
+}
+
+.flex-main {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+}
+
+body {
+  font-family: Barlow Semi Condensed;
+  font-size: 13px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-family: Barlow Semi Condensed;
+}
+
+.cards {
+  color: white;
+  margin: 0.5%;
+  padding: 1%;
+  border-radius: 10px;
+  max-height: 28%;
+  min-height: 28%;
+}
+.cards .uk-card-header {
+  border: 0;
+  padding-bottom: 0;
+}
+.cards .uk-card-header .uk-text-meta {
+  opacity: 50%;
+}
+.cards .uk-card-header .uk-card-title,
+.cards .uk-card-header .uk-text-meta {
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+}
+.cards p {
+  opacity: 70%;
+  font-weight: 500;
+  font-size: 13px;
+}
+.cards h3 {
+  color: white;
+  font-size: 15px;
+}
+
+.card-s {
+  width: 25%;
+}
+
+.c4 {
+  max-width: 20%;
+  min-height: 71%;
+  position: absolute;
+  right: 2%;
+}
+
+.c3 {
+  height: 250.6px;
+  background-color: #19212e;
+}
+
+.c2,
+.c4 {
+  background-color: #ecf2f8;
+}
+.c2 h3,
+.c2 p,
+.c4 h3,
+.c4 p {
+  color: black;
+}
+.c2 .uk-card-header .uk-card-title,
+.c2 .uk-card-header .uk-text-meta,
+.c4 .uk-card-header .uk-card-title,
+.c4 .uk-card-header .uk-text-meta {
+  color: black;
+}
+
+.c4 {
+  background-color: white;
+}
+
+.c1 {
+  background-color: #48556a;
+}
+
+.c0 {
+  background-color: #7541c8;
+}

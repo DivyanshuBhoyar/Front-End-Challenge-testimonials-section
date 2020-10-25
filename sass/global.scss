@@ -1,0 +1,123 @@
+@import "colors";
+@import "typography";
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    border: 1px soid brown;
+    padding: 30px;
+    display: auto;
+
+}
+
+.flex-main {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+body {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    font-family: $fontFamily;
+}
+
+.cards {
+
+    color: white;
+    margin: 0.5%;
+    padding: 1%;
+    border-radius: 10px;
+    max-height: 28%;
+    min-height: 28%;
+
+
+
+    .uk-card-header {
+        border: 0;
+        padding-bottom: 0;
+
+        .uk-text-meta {
+            opacity: 50%;
+        }
+
+        .uk-card-title,
+        .uk-text-meta {
+            color: white;
+            font-weight: 500;
+            font-size: 12px;
+        }
+    }
+
+    p {
+        opacity: 70%;
+        font-weight: $Weights-L;
+        font-size: 13px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 15px;
+    }
+}
+
+.card-s {
+    width: 25%;
+}
+
+.c4 {
+    max-width: 20%;
+    min-height: 71%;
+    position: absolute;
+    right: 2%;
+}
+
+.c3 {
+    height: 250.6px;
+    background-color: $VeryDarkBlackish-blue;
+    ;
+}
+
+.c2,
+.c4 {
+    background-color: $LightGrayish-blue;
+
+    h3,
+    p {
+        color: black;
+    }
+
+    .uk-card-header {
+
+        .uk-card-title,
+        .uk-text-meta {
+            color: black;
+        }
+    }
+}
+
+.c4 {
+    background-color: white;
+}
+
+.c1 {
+    background-color: $VeryDarkGrayish-blue;
+}
+
+.c0 {
+    background-color: $ModerateViolet;
+
+}
